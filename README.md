@@ -2,6 +2,8 @@
 
 # VALORANT RANK OVERLAY
 
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&pause=1000&color=FF4655&center=true&vCenter=true&width=650&lines=LIVE+VALORANT+RANK+TRACKING;BUILT+FOR+GAMERS;DESIGNED+FOR+STREAMERS" alt="Animated project tagline" />
+
 ### A live rank-tracking overlay for OBS Studio
 
 **Created by IMX DemonBoy**
@@ -13,6 +15,10 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-ff4655?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-OBS%20Studio-6441A5?style=flat-square&logo=obsstudio&logoColor=white)
 ![Built with](https://img.shields.io/badge/built%20with-HTML%20%7C%20CSS%20%7C%20JavaScript-orange?style=flat-square)
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ---
 
@@ -110,7 +116,7 @@ This is an independent community project. It is not affiliated with, endorsed by
 
 <div align="center">
 
-**BUILT FOR GAMERS. DESIGNED FOR STREAMERS.**
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&pause=1200&color=FF4655&center=true&vCenter=true&width=600&lines=BUILT+FOR+GAMERS.;DESIGNED+FOR+STREAMERS.;POWERED+BY+IMX+DEMONBOY." alt="Animated IMX DemonBoy sign-off" />
 
 *IMX DemonBoy*
 
