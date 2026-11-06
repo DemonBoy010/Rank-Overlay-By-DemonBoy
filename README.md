@@ -1,8 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/DemonBoy010">
-  <img src="https://github.com/DemonBoy010.png?size=180" width="112" height="112" alt="IMX DemonBoy GitHub profile picture" style="border-radius:50%;" />
-</a>
+<img src="assets/imx-demonboy-logo.png" width="92" height="88" alt="IMX DemonBoy logo" />
 
 # VALORANT RANK OVERLAY
 
@@ -138,6 +136,10 @@ This is an independent community project. It is not affiliated with, endorsed by
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&pause=1200&color=FF4655&center=true&vCenter=true&width=600&lines=BUILT+FOR+GAMERS.;DESIGNED+FOR+STREAMERS.;POWERED+BY+IMX+DEMONBOY." alt="Animated IMX DemonBoy sign-off" />
 
-*IMX DemonBoy*
+<a href="https://github.com/DemonBoy010" title="Visit IMX DemonBoy on GitHub">
+  <img src="https://github.com/DemonBoy010.png?size=180" width="88" height="88" alt="IMX DemonBoy GitHub profile picture" />
+</a>
+
+**IMX DemonBoy** · [GitHub](https://github.com/DemonBoy010)
 
 </div>
