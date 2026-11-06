@@ -1,89 +1,117 @@
-# Valorant Rank Overlay Setup
+<div align="center">
 
-A single-file setup page that generates your own **live Valorant rank overlay** for OBS. Pick a style, enter your details, tweak colours and effects, preview it, then download a ready-to-use `overlay.html`.
+# VALORANT RANK OVERLAY
 
-Created by [IMX DemonBoy](https://www.youtube.com/@imxdemonboy010)
+### A live rank-tracking overlay for OBS Studio
+
+**Created by IMX DemonBoy**
+
+[![YouTube](https://img.shields.io/badge/YouTube-IMX%20DemonBoy-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@imxdemonboy010)
+[![Instagram](https://img.shields.io/badge/Instagram-%40imxdemonboy__official-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/imxdemonboy_official/)
+[![Kick](https://img.shields.io/badge/Kick-demonboy010-53FC18?style=for-the-badge&logo=kick&logoColor=black)](https://kick.com/demonboy010)
+
+![Version](https://img.shields.io/badge/version-1.0.0-ff4655?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-OBS%20Studio-6441A5?style=flat-square&logo=obsstudio&logoColor=white)
+![Built with](https://img.shields.io/badge/built%20with-HTML%20%7C%20CSS%20%7C%20JavaScript-orange?style=flat-square)
 
 ---
+
+**Choose a design. Customize your stats. Take your rank on stream.**
+
+</div>
+
+## Overview
+
+A single-file setup page that generates a customizable **live VALORANT rank overlay** for OBS. Choose a style, enter your account details, customize the display and effects, preview the result, and download a ready-to-use `overlay.html`.
 
 ## Features
 
-- **14 overlay styles** with live demo previews: Classic Card, Slim Bar, Glass, Neon Terminal, Tactical HUD, Ring Badge, Wide Banner, Minimal Text, Red Slash, Retro Arcade, Aurora Glass, Frosted Glass, Holo Glass and Crystal
-- **Choose what to show:** player name, #tag, RR number, RR progress bar (or ring), last match result, RR change, session RR, last 5 matches as dots, session record and win/loss streak, small peak rank tag
-- **Peak rank rotation:** loop back and forth to a full peak rank view with adjustable timings
-- **Result wording:** WIN / LOSS, VICTORY / DEFEAT, or icon only
-- **Colours:** automatic per-rank accent, or one custom colour; custom text, panel, win and loss colours
-- **Transparency:** fully transparent background, no border, glass (glassmorphism) mode, overall opacity
-- **Effects:** glow, shimmer, floating sparks, scanlines, floating rank icon, RR pop, win/loss flash, rank up / derank banner, icon rotation, pulsing glow
-- **Size control** from 0.5x to 2x
-- **Near real-time updates** with a data refresh of 5 to 15 seconds
-- **Simulate buttons** (win, loss, rank up) to test the animations in demo mode
-
----
+| Feature | Description |
+|---|---|
+| **14 overlay styles** | Classic Card, Slim Bar, Glass, Neon Terminal, Tactical HUD, Ring Badge, Wide Banner, Minimal Text, Red Slash, Retro Arcade, Aurora Glass, Frosted Glass, Holo Glass and Crystal |
+| **Rank and RR tracking** | Display your current rank, RR number and RR progress |
+| **Match information** | Show the last match result, RR change and last five match results |
+| **Session statistics** | Display session RR, match record and win/loss streak |
+| **Peak rank rotation** | Switch between current rank and a full peak-rank view |
+| **Full customization** | Adjust colours, text, panel, transparency, font, corners and size |
+| **Visual effects** | Glow, shimmer, sparks, scanlines, floating rank icon, RR animation, rank-up banner and more |
+| **Demo mode** | Simulate wins, losses and rank changes to test the overlay |
+| **Automatic refresh** | Configure data refresh from 5 to 15 seconds |
+| **OBS support** | Add the generated file as a local Browser Source |
 
 ## Requirements
 
-- A free **HenrikDev API key** (get it from the HenrikDev Discord)
-- Your **Riot ID** (name and tag)
-- **OBS Studio** (or any streaming software with a browser source)
+- OBS Studio (or streaming software with a Browser Source)
+- A free HenrikDev API key
+- Your VALORANT Riot ID (name and tag)
 
----
+## Getting started
 
-## How to use
+1. Download the setup HTML file from this repository: **`Rank_Overlay by DemonBoy.html`**.
+2. Open the file in a browser directly from your PC. Do not use an online or chat preview; the page needs to run locally to contact the API.
+3. Choose one of the 14 overlay styles.
+4. Enter your HenrikDev API key, Riot name, tag, region and platform.
+5. Customize the information, colours, transparency and effects.
+6. Check the preview and select **Download my overlay.html**.
 
-1. Download or clone this repo.
-2. Open `Rank_Overlay_setup.html` in your browser **from a saved file on your PC** (not inside a chat or online preview, or it can't reach the API).
-3. **Choose a style** from the gallery.
-4. Fill in your **API key, Riot name, tag, region and platform**.
-5. Pick what to show, set colours, transparency and effects.
-6. Check the live preview, then click **Download my overlay.html**.
+### Add the overlay to OBS
 
-### Add it to OBS
+1. Open OBS Studio.
+2. Add a **Browser** source to your scene.
+3. Enable **Local file** and select your downloaded `overlay.html`.
+4. Set the width and height shown on the setup page.
+5. Save your source. The overlay refreshes automatically.
 
-1. Add a **Browser** source.
-2. Tick **Local file** and select your downloaded `overlay.html`.
-3. Set the width and height shown on the setup page (they change with the style and size you chose).
-4. Done. It refreshes by itself. If you change any settings, download a new file.
+If you change your design or settings, generate and download a new `overlay.html` file.
 
----
+## Supported regions
 
-## Regions
-
-| Code | Area |
-|------|------|
-| `ap` | Asia Pacific (India, Japan, SEA, Oceania) |
+| Region code | Area |
+|:---:|---|
+| `ap` | Asia Pacific (India, Japan, Southeast Asia and Oceania) |
 | `eu` | Europe |
-| `na` | North America, Brazil, LATAM |
+| `na` | North America, Brazil and LATAM |
 | `kr` | Korea |
 
----
+## Keep your API key private
 
-## Important: keep your API key private
+> [!CAUTION]
+> The generated `overlay.html` contains your HenrikDev API key. **Do not publish, share, commit or display that generated file on stream.**
 
-The downloaded `overlay.html` **contains your API key**. Don't share that file, commit it to Git, or show it on stream.
+The setup page in this repository does not contain your personal API key and is safe to share.
 
-The setup page (`Rank_Overlay_setup.html`) has no key in it, so it is safe to share and safe to upload.
+Keep this entry in your `.gitignore`:
 
-Tip: add this to your `.gitignore` so you never commit a generated overlay by accident:
-
-```
+```gitignore
 overlay.html
 ```
 
----
-
 ## Data source
 
-Rank and match data comes from the [HenrikDev Valorant API](https://docs.henrikdev.xyz/).
+Rank and match information is provided by the [HenrikDev VALORANT API](https://docs.henrikdev.xyz/).
+
+## Connect with IMX DemonBoy
+
+Follow the project creator for streams, updates and more gaming content.
+
+| Platform | Official page |
+|---|---|
+| YouTube | [@imxdemonboy010](https://www.youtube.com/@imxdemonboy010) |
+| Instagram | [@imxdemonboy_official](https://www.instagram.com/imxdemonboy_official/) |
+| Kick | [demonboy010](https://kick.com/demonboy010) |
+
+## Credits and disclaimer
+
+**Created by IMX DemonBoy.**
+
+This is an independent community project. It is not affiliated with, endorsed by, or sponsored by Riot Games. VALORANT and all related names and assets are trademarks of Riot Games, Inc.
 
 ---
 
-## Disclaimer
+<div align="center">
 
-This project is not affiliated with or endorsed by Riot Games. Valorant and all related names and assets are trademarks of Riot Games, Inc.
+**BUILT FOR GAMERS. DESIGNED FOR STREAMERS.**
 
----
+*IMX DemonBoy*
 
-## Credits
-
-Created by [IMX DemonBoy](https://www.youtube.com/@imxdemonboy010)
+</div>
