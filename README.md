@@ -1,5 +1,9 @@
 <div align="center">
 
+<a href="https://github.com/DemonBoy010">
+  <img src="https://github.com/DemonBoy010.png?size=180" width="112" height="112" alt="IMX DemonBoy GitHub profile picture" style="border-radius:50%;" />
+</a>
+
 # VALORANT RANK OVERLAY
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&pause=1000&color=FF4655&center=true&vCenter=true&width=650&lines=LIVE+VALORANT+RANK+TRACKING;BUILT+FOR+GAMERS;DESIGNED+FOR+STREAMERS" alt="Animated project tagline" />
@@ -8,9 +12,17 @@
 
 **Created by IMX DemonBoy**
 
-[![YouTube](https://img.shields.io/badge/YouTube-IMX%20DemonBoy-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@imxdemonboy010)
-[![Instagram](https://img.shields.io/badge/Instagram-%40imxdemonboy__official-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/imxdemonboy_official/)
-[![Kick](https://img.shields.io/badge/Kick-demonboy010-53FC18?style=for-the-badge&logo=kick&logoColor=black)](https://kick.com/demonboy010)
+<a href="https://www.youtube.com/@imxdemonboy010" title="YouTube">
+  <img src="https://cdn.simpleicons.org/youtube/FF0000" width="30" height="30" alt="YouTube" />
+</a>
+&nbsp;&nbsp;
+<a href="https://kick.com/demonboy010" title="Kick">
+  <img src="https://cdn.simpleicons.org/kick/53FC18" width="30" height="30" alt="Kick" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.instagram.com/imxdemonboy_official/" title="Instagram">
+  <img src="https://cdn.simpleicons.org/instagram/E4405F" width="30" height="30" alt="Instagram" />
+</a>
 
 ![Version](https://img.shields.io/badge/version-1.0.0-ff4655?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-OBS%20Studio-6441A5?style=flat-square&logo=obsstudio&logoColor=white)
@@ -98,13 +110,21 @@ Rank and match information is provided by the [HenrikDev VALORANT API](https://d
 
 ## Connect with IMX DemonBoy
 
-Follow the project creator for streams, updates and more gaming content.
+Follow for streams, project updates and gaming content.
 
-| Platform | Official page |
-|---|---|
-| YouTube | [@imxdemonboy010](https://www.youtube.com/@imxdemonboy010) |
-| Instagram | [@imxdemonboy_official](https://www.instagram.com/imxdemonboy_official/) |
-| Kick | [demonboy010](https://kick.com/demonboy010) |
+<div align="center">
+  <a href="https://www.youtube.com/@imxdemonboy010" title="YouTube">
+    <img src="https://cdn.simpleicons.org/youtube/FF0000" width="34" height="34" alt="YouTube" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://kick.com/demonboy010" title="Kick">
+    <img src="https://cdn.simpleicons.org/kick/53FC18" width="34" height="34" alt="Kick" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.instagram.com/imxdemonboy_official/" title="Instagram">
+    <img src="https://cdn.simpleicons.org/instagram/E4405F" width="34" height="34" alt="Instagram" />
+  </a>
+</div>
 
 ## Credits and disclaimer
 
